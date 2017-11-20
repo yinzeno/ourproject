@@ -6,6 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-欢迎登录书店后台管理
+欢迎登录医院预约后台管理
 </body>
 </html>

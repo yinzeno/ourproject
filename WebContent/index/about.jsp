@@ -16,7 +16,7 @@
 
 	<div class="left_content">
 	
-		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>书店简介</div>
+		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>医院简介</div>
 		<div class="feat_prod_box_details">
 			<p class="details">
 				<img src="images/about.gif" class="right" />

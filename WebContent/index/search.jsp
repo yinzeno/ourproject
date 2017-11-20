@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>图书搜索</title>
+<title>科室及医生搜索</title>
 </head>
 <body>
 
@@ -16,7 +16,7 @@
 
 	<div class="left_content">
 	
-		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>图书搜索</div>
+		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>科室及医生搜索</div>
      
      	<s:iterator value="bookList">
      
@@ -34,7 +34,7 @@
 					<div class="box_center">
 						<div class="prod_title"><a href="detail.action?bookid=${id}">${name}</a></div>
 						<p class="details"><s:property value="intro.substring(0,(intro.length()>70?70:intro.length()))+'...'"/></p>
-						<a href="detail.action?bookid=${id}" class="more">- 图书详情 -</a>
+						<a href="detail.action?bookid=${id}" class="more">- 医生详情 -</a>
 						<div class="clear"></div>
 					</div>
 					<div class="box_bottom"></div>

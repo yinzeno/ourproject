@@ -31,7 +31,7 @@
 					<div class="box_center">
 						<div class="prod_title"><a href="detail.action?bookid=${id}">${name}</a></div>
 						<p class="details"><s:property value="intro.substring(0,(intro.length()>70?70:intro.length()))+'...'"/></p>
-						<a href="detail.action?bookid=${id}" class="more">- 图书详情 -</a>
+						<a href="detail.action?bookid=${id}" class="more">- 医生详情 -</a>
 						<div class="clear"></div>
 					</div>
 					<div class="box_bottom"></div>

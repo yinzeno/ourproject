@@ -1,7 +1,7 @@
-﻿网上书店(ssh_book)
+﻿网上医院预约(ssh_appointment)
 
 
-数据库文档请查看: book.doc 
+数据库文档请查看: hospital.doc 
 
 
 默认访问地址: http://localhost:8080/ssh_book

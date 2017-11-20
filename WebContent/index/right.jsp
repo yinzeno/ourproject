@@ -19,7 +19,7 @@
 					<span>共<s:property value="#session.indent.amount"/>本 | 总价: $<s:property value="#session.indent.total"/></span>
 			</div>
 			<s:if test="#session.indent!=null">
-				<a href="cart.action" class="view_cart">查看购物车</a> 
+				<a href="cart.action" class="view_cart">查看预约未支付</a> 
 			</s:if>
 		</div>
 	</s:if>

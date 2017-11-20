@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/book.js"></script>
-<title>图书详情</title>
+<title>医生详情</title>
 </head>
 <body>
 
@@ -51,10 +51,10 @@
 				<div style="display: block;" class="tab" id="tab1">
 					<p class="more_details">${book.intro}</p>
 					<ul class="list">
-						<li><a href="">作者: ${book.auther}</a></li>
-						<li><a href="">出版社: ${book.press}</a></li>
-						<li><a href="">出版日期: ${book.pubdate}</a></li>
-						<li><a href="">图片分类: ${book.category.name}</a></li>
+						<li><a href="">姓名: ${book.auther}</a></li>
+						<li><a href="">科室: ${book.press}</a></li>
+						<li><a href="">出诊日期: ${book.pubdate}</a></li>
+						<li><a href="">所属科室: ${book.category.name}</a></li>
 					</ul>
 				</div>
 				<div style="display: none;" class="tab" id="tab2">

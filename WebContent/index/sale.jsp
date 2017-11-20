@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>优惠促销</title>
+<title>特色诊室</title>
 </head>
 <body>
 
@@ -16,7 +16,7 @@
 
 	<div class="left_content">
 	
-		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>优惠促销</div>
+		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>特色诊室</div>
      
      	<s:iterator value="saleList">
      

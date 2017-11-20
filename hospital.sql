@@ -1,4 +1,4 @@
-/*
+﻿/*
 Navicat MySQL Data Transfer
 
 Source Server         : mysql
@@ -36,16 +36,16 @@ INSERT INTO `admin` VALUES ('1', '1', 'iUOoOdMAl7FsB1Kig37hmg==');
 DROP TABLE IF EXISTS `book`;
 CREATE TABLE `book` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) DEFAULT NULL COMMENT '名称',
-  `cover` varchar(255) DEFAULT NULL COMMENT '封面',
-  `price` float DEFAULT NULL COMMENT '价格',
+  `name` varchar(255) DEFAULT NULL COMMENT '姓名',
+  `cover` varchar(255) DEFAULT NULL COMMENT '科室',
+  `price` float DEFAULT NULL COMMENT '挂号价格',
   `intro` varchar(1024) DEFAULT NULL COMMENT '介绍',
-  `auther` varchar(255) DEFAULT NULL COMMENT '作者',
+  `auther` varchar(255) DEFAULT NULL COMMENT '职称',
   `press` varchar(255) DEFAULT NULL COMMENT '出版社',
-  `pubdate` date DEFAULT NULL COMMENT '出版日期',
-  `special` int(1) DEFAULT '0' COMMENT '特卖',
-  `news` int(1) DEFAULT '0' COMMENT '新书',
-  `sale` int(1) DEFAULT '0' COMMENT '打折',
+  `pubdate` date DEFAULT NULL COMMENT '出诊日期',
+  `special` int(1) DEFAULT '0' COMMENT '名医推荐',
+  `news` int(1) DEFAULT '0' COMMENT '特殊报销',
+  `sale` int(1) DEFAULT '0' COMMENT '医保折扣',
   `category_id` int(11) DEFAULT NULL COMMENT '分类',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8;
@@ -107,18 +107,15 @@ CREATE TABLE `category` (
 -- ----------------------------
 -- Records of category
 -- ----------------------------
-INSERT INTO `category` VALUES ('1', '经典著作');
-INSERT INTO `category` VALUES ('2', '社会科学');
-INSERT INTO `category` VALUES ('3', '自然科学');
-INSERT INTO `category` VALUES ('4', '历史地理');
-INSERT INTO `category` VALUES ('5', '中国文学');
-INSERT INTO `category` VALUES ('6', '美术雕塑');
-INSERT INTO `category` VALUES ('7', '摄影影视');
-INSERT INTO `category` VALUES ('8', '书法篆刻');
-INSERT INTO `category` VALUES ('9', '医药卫生');
-INSERT INTO `category` VALUES ('10', '建筑工程');
-INSERT INTO `category` VALUES ('11', '生活休闲');
-INSERT INTO `category` VALUES ('12', '少儿读物');
+INSERT INTO `category` VALUES ('1', '内科');
+INSERT INTO `category` VALUES ('2', '外科');
+INSERT INTO `category` VALUES ('3', '口腔科');
+INSERT INTO `category` VALUES ('4', '妇科');
+INSERT INTO `category` VALUES ('5', '药剂科');
+INSERT INTO `category` VALUES ('6', '保健科');
+INSERT INTO `category` VALUES ('7', '放射科');
+INSERT INTO `category` VALUES ('8', '检验科');
+INSERT INTO `category` VALUES ('9', '急诊');
 
 -- ----------------------------
 -- Table structure for `indent`
@@ -127,13 +124,13 @@ DROP TABLE IF EXISTS `indent`;
 CREATE TABLE `indent` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `total` float DEFAULT NULL COMMENT '总价',
-  `amount` int(11) DEFAULT NULL COMMENT '商品总数',
+  `amount` int(11) DEFAULT NULL COMMENT '挂号时间',
   `status` tinyint(4) DEFAULT '1' COMMENT '状态(1未处理/2已处理)',
-  `name` varchar(20) DEFAULT NULL COMMENT '收货人姓名',
-  `phone` varchar(20) DEFAULT NULL COMMENT '收货人电话',
-  `address` varchar(255) DEFAULT NULL COMMENT '收货地址',
-  `systime` datetime DEFAULT NULL COMMENT '下单时间',
-  `user_id` int(11) DEFAULT NULL COMMENT '下单用户',
+  `name` varchar(20) DEFAULT NULL COMMENT '挂号人姓名',
+  `phone` varchar(20) DEFAULT NULL COMMENT '挂号人电话',
+  `address` varchar(255) DEFAULT NULL COMMENT '科室地址',
+  `systime` datetime DEFAULT NULL COMMENT '预定时间',
+  `user_id` int(11) DEFAULT NULL COMMENT '预定用户',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -147,8 +144,8 @@ CREATE TABLE `indent` (
 DROP TABLE IF EXISTS `items`;
 CREATE TABLE `items` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `price` float DEFAULT NULL COMMENT '购买时价格',
-  `amount` int(11) DEFAULT NULL COMMENT '数量',
+  `price` float DEFAULT NULL COMMENT '挂号费',
+  `amount` int(11) DEFAULT NULL COMMENT '金额',
   `book_id` int(11) DEFAULT NULL,
   `indent_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)

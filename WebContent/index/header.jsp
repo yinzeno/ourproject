@@ -29,7 +29,7 @@
 				<li><a href="../admin/login.jsp" target="_blank">后台管理</a></li>
 			</s:if>
 			<s:else>
-				<li><a href="order.action">我的订单</a></li>
+				<li><a href="order.action">我的预约管理查看</a></li>
 				<li><a href="logout.action">注销登录</a></li>
 			</s:else>
 			<li style="float: right; margin-right: 10px;">

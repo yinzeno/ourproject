@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>图书分类</title>
+<title>科室分类</title>
 </head>
 <body>
 
@@ -16,7 +16,7 @@
 
 	<div class="left_content">
 	
-		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>图书分类</div>
+		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>科室分类</div>
 
 		<div class="new_products">
 		

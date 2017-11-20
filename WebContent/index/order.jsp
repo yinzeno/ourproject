@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/cart.js"></script>
-<title>我的订单</title>
+<title>我的预约</title>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 
 	<div class="left_content">
 	
-		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>我的订单</div>
+		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>我的预约</div>
 		
 		<div class="feat_prod_box_details">
 		

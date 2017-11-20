@@ -56,7 +56,7 @@ function show_menu_box(num){
 				
 					<div class="meun_top">
 						<div id="img1" class="meun_img"></div>
-						<a onclick="show_menu_box(1)" href="javascript:;">订单管理</a>
+						<a onclick="show_menu_box(1)" href="javascript:;">预约订单管理</a>
 					</div>
 					<div class="meun_box none_box" id="box1">
 						<ul>
@@ -67,22 +67,22 @@ function show_menu_box(num){
 					
 					<div class="meun_top">
 						<div id="img2" class="meun_img"></div>
-						<a onclick="show_menu_box(2)" href="javascript:;">顾客管理</a>
+						<a onclick="show_menu_box(2)" href="javascript:;">患者管理</a>
 					</div>
 					<div class="meun_box none_box" id="box2">
 						<ul>
-							<li><a href="userList.action"  target="rightFrame">&middot;顾客列表</a></li>
-							<li><a href="pages/user-add.jsp"  target="rightFrame">&middot;添加顾客</a></li>
+							<li><a href="userList.action"  target="rightFrame">&middot;患者列表</a></li>
+							<li><a href="pages/user-add.jsp"  target="rightFrame">&middot;添加患者</a></li>
 						</ul>
 					</div>
 					
 					<div class="meun_top">
 						<div id="img3" class="meun_img"></div>
-						<a onclick="show_menu_box(3)" href="javascript:;">图书管理</a>
+						<a onclick="show_menu_box(3)" href="javascript:;">科室管理</a>
 					</div>
 					<div class="meun_box none_box" id="box3">
 						<ul>
-							<li><a href="bookList.action"  target="rightFrame">&middot;图书列表</a></li>
+							<li><a href="bookList.action"  target="rightFrame">&middot;科室医生列表</a></li>
 							<li><a href="bookList.action?status=1"  target="rightFrame">&middot;推荐列表</a></li>
 							<li><a href="bookList.action?status=2"  target="rightFrame">&middot;最新列表</a></li>
 							<li><a href="bookList.action?status=3"  target="rightFrame">&middot;促销列表</a></li>
@@ -103,7 +103,7 @@ function show_menu_box(num){
 					
 					<div class="meun_top">
 						<div id="img5" class="meun_img"></div>
-						<a onclick="show_menu_box(5)" href="javascript:;">用户管理</a>
+						<a onclick="show_menu_box(5)" href="javascript:;">患者用户管理</a>
 					</div>
 					<div class="meun_box none_box" id="box5">
 						<ul>

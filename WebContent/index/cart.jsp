@@ -18,7 +18,7 @@
 
 	<div class="left_content">
 	
-		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>我的购物车</div>
+		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>我的预定未支付</div>
 		
 		<div class="feat_prod_box_details">
 		
@@ -54,13 +54,13 @@
 	        	<form action="save.action" method="post" id="form_save_order">
 	        		<table class="cart_table">
 	        			<tr>
-		        			<td>收货人姓名: <input type="text" name="indent.name" value="${indent.name}" placeholder="收货人姓名" style="width:100px" required="required"/></td>
-			        		<td>收货人电话: <input type="text" name="indent.phone" value="${indent.phone}" placeholder="收货人电话" style="width:100px" required="required"/></td>
-			        		<td>收货人地址: <input type="text" name="indent.address" value="${indent.address}" placeholder="收货地址" style="width:180px" required="required"/></td>
+		        			<td>预约人姓名: <input type="text" name="indent.name" value="${indent.name}" placeholder="预约人姓名" style="width:100px" required="required"/></td>
+			        		<td>预约人电话: <input type="text" name="indent.phone" value="${indent.phone}" placeholder="预约人电话" style="width:100px" required="required"/></td>
+			        		<td>科室地址: <input type="text" name="indent.address" value="${indent.address}" placeholder="科室地址" style="width:180px" required="required"/></td>
 		        		</tr>
 	        		</table>
 	        		
-	        		<input type="submit" class="checkout" value="提交订单"/>
+	        		<input type="submit" class="checkout" value="提交预约"/>
 	        		
 	        	</form>
 	        	

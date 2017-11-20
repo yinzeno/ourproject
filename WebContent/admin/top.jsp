@@ -34,7 +34,7 @@ a:hover {font-size:12px; color:#00CCFF;text-decoration:none;}
       <tr>
              <td width="282" height="52" background="images/main_05.gif">
         	<span style="font-size:24px;font-weight:bolder;margin-left:60px;">
-        		书店后台管理</span>
+        		医院预约后台管理</span>
         </td>
         <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
