@@ -54,7 +54,7 @@ a:active {
 		<tr>
 		  <td width="15" height="30"><img src="images/tab_03.gif" width="15" height="30" /></td>
 		  <td background="images/tab_05.gif"><img src="images/311.gif" width="16" height="16" /> 
-			<span class="STYLE4">图书列表</span></td>
+			<span class="STYLE4">医生列表</span></td>
 		  <td width="14"><img src="images/tab_07.gif" width="14" height="30" /></td>
 		</tr>
 	  </table>
@@ -71,19 +71,19 @@ a:active {
 					<td width="5%" height="26" background="images/tab_14.gif" class="STYLE1">
 						<div align="center" class="STYLE2 STYLE1">编号</div></td>
 					<td width="10%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">封面</div></td>
+						<div align="center" class="STYLE2 STYLE1">照片</div></td>
 					<td width="10%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">书名</div></td>
+						<div align="center" class="STYLE2 STYLE1">姓名</div></td>
 					<td width="5%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">价格</div></td>
+						<div align="center" class="STYLE2 STYLE1">挂号费</div></td>
 					<td width="20%" height="26" background="images/tab_14.gif" class="STYLE1">
 						<div align="center" class="STYLE2 STYLE1">介绍</div></td>
 					<td width="10%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">作者</div></td>
+						<div align="center" class="STYLE2 STYLE1">性别</div></td>
 					<td width="10%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">出版社</div></td>
+						<div align="center" class="STYLE2 STYLE1">职称</div></td>
 					<td width="10%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">出版日期</div></td>
+						<div align="center" class="STYLE2 STYLE1">出诊日期</div></td>
 					<td width="20%" height="26" background="images/tab_14.gif" class="STYLE1">
 						<div align="center" class="STYLE2">操作</div></td>
 				</tr>

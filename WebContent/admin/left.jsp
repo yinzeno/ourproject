@@ -83,10 +83,10 @@ function show_menu_box(num){
 					<div class="meun_box none_box" id="box3">
 						<ul>
 							<li><a href="bookList.action"  target="rightFrame">&middot;科室医生列表</a></li>
-							<li><a href="bookList.action?status=1"  target="rightFrame">&middot;推荐列表</a></li>
-							<li><a href="bookList.action?status=2"  target="rightFrame">&middot;最新列表</a></li>
-							<li><a href="bookList.action?status=3"  target="rightFrame">&middot;促销列表</a></li>
-							<li><a href="bookAd.action"  target="rightFrame">&middot;添加图书</a></li>
+							<li><a href="bookList.action?status=1"  target="rightFrame">&middot;推荐名医</a></li>
+							<li><a href="bookList.action?status=2"  target="rightFrame">&middot;挂号列表</a></li>
+							<li><a href="bookList.action?status=3"  target="rightFrame">&middot;检查项目列表</a></li>
+							<li><a href="bookAd.action"  target="rightFrame">&middot;添加医生</a></li>
 						</ul>
 					</div>
 					

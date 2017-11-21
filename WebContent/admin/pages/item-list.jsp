@@ -71,11 +71,11 @@ a:active {
 					<td width="10%" height="26" background="images/tab_14.gif" class="STYLE1">
 						<div align="center" class="STYLE2 STYLE1">编号</div></td>
 					<td width="10%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">图书</div></td>
+						<div align="center" class="STYLE2 STYLE1">医生</div></td>
 					<td width="10%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">单价</div></td>
+						<div align="center" class="STYLE2 STYLE1">挂号费</div></td>
 					<td width="10%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">数量</div></td>
+						<div align="center" class="STYLE2 STYLE1">挂号数量</div></td>
 					<td width="20%" height="26" background="images/tab_14.gif" class="STYLE1">
 						<div align="center" class="STYLE2">操作</div></td>
 				</tr>

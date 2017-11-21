@@ -54,7 +54,7 @@ a:active {
 		<tr>
 		  <td width="15" height="30"><img src="images/tab_03.gif" width="15" height="30" /></td>
 		  <td background="images/tab_05.gif"><img src="images/311.gif" width="16" height="16" /> 
-			<span class="STYLE4">顾客列表</span></td>
+			<span class="STYLE4">挂号列表</span></td>
 		  <td width="14"><img src="images/tab_07.gif" width="14" height="30" /></td>
 		</tr>
 	  </table>
@@ -116,7 +116,7 @@ a:active {
 		  <tr>
 			<td width="15" height="29"><img src="images/tab_20.gif" width="15" height="29" /></td>
 			<td background="images/tab_21.gif">
-				<a href="pages/user-add.jsp">添加顾客</a>${pageTool}
+				<a href="pages/user-add.jsp">添加患者</a>${pageTool}
 			</td>
 			<td width="14"><img src="images/tab_22.gif" width="14" height="29" /></td>
 		  </tr>

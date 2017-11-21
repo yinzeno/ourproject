@@ -54,7 +54,7 @@ a:active {
 		<tr>
 		  <td width="15" height="30"><img src="images/tab_03.gif" width="15" height="30" /></td>
 		  <td background="images/tab_05.gif"><img src="images/311.gif" width="16" height="16" /> 
-			<span class="STYLE4">类目列表</span></td>
+			<span class="STYLE4">科室列表</span></td>
 		  <td width="14"><img src="images/tab_07.gif" width="14" height="30" /></td>
 		</tr>
 	  </table>

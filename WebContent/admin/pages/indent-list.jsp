@@ -54,7 +54,7 @@ a:active {
 		<tr>
 		  <td width="15" height="30"><img src="images/tab_03.gif" width="15" height="30" /></td>
 		  <td background="images/tab_05.gif"><img src="images/311.gif" width="16" height="16" /> 
-			<span class="STYLE4">订单列表</span></td>
+			<span class="STYLE4">挂号订单列表</span></td>
 		  <td width="14"><img src="images/tab_07.gif" width="14" height="30" /></td>
 		</tr>
 	  </table>
@@ -69,23 +69,23 @@ a:active {
 			<table width="100%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CECECE">
 				<tr>
 					<td width="5%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">订单编号</div></td>
+						<div align="center" class="STYLE2 STYLE1">挂号订单编号</div></td>
 					<td width="10%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">下单时间</div></td>
+						<div align="center" class="STYLE2 STYLE1">支付时间</div></td>
 					<td width="5%" height="26" background="images/tab_14.gif" class="STYLE1">
 						<div align="center" class="STYLE2 STYLE1">下单用户</div></td>
 					<td width="5%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">商品数量</div></td>
+						<div align="center" class="STYLE2 STYLE1">预约时间</div></td>
 					<td width="5%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">订单总价</div></td>
+						<div align="center" class="STYLE2 STYLE1">挂号费</div></td>
 					<td width="5%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">订单状态</div></td>
+						<div align="center" class="STYLE2 STYLE1">预约状态</div></td>
 					<td width="5%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">收货人姓名</div></td>
+						<div align="center" class="STYLE2 STYLE1">预约人姓名</div></td>
 					<td width="5%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">收货人电话</div></td>
+						<div align="center" class="STYLE2 STYLE1">预约人电话</div></td>
 					<td width="15%" height="26" background="images/tab_14.gif" class="STYLE1">
-						<div align="center" class="STYLE2 STYLE1">收货地址</div></td>
+						<div align="center" class="STYLE2 STYLE1">科室地址</div></td>
 					<td width="15%" height="26" background="images/tab_14.gif" class="STYLE1">
 						<div align="center" class="STYLE2">操作</div></td>
 				</tr>

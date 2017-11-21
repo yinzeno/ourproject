@@ -32,14 +32,14 @@ $(function() {
 
 	<form action="bookAdd.action" method="post" enctype="multipart/form-data">
 
-		封面：<input type="file" name="photo" size="12" required="required"/><br>
-		书名：<input type="text" name="book.name" required="required"/><br>
-		价格：<input type="text" name="book.price" required="required"/><br>
+		照片：<input type="file" name="photo" size="12" required="required"/><br>
+		姓名：<input type="text" name="book.name" required="required"/><br>
+		挂号费：<input type="text" name="book.price" required="required"/><br>
 		介绍：<input type="text" name="book.intro" required="required"/><br>
-		作者：<input type="text" name="book.auther"/><br>
-		出版社：<input type="text" name="book.press"/><br>
-		出版日期：<input type="text" id="datepicker" name="book.pubdate"/><br>
-		图书分类:  <select name="book.category.id">
+		性别：<input type="text" name="book.auther"/><br>
+		职称：<input type="text" name="book.press"/><br>
+		出诊日期：<input type="text" id="datepicker" name="book.pubdate"/><br>
+		科室分类:  <select name="book.category.id">
 							<s:iterator value="categoryList">
 								<option value="<s:property value="id"/>"><s:property value="name"/></option>
 							</s:iterator>
