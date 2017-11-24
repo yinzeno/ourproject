@@ -1,4 +1,5 @@
-﻿网上医院预约(ssh_appointment)
+﻿3.添加了预约时的日期选择
+网上医院预约(ssh_appointment)
 
 
 数据库文档请查看: hospital.doc 
