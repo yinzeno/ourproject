@@ -239,9 +239,9 @@ public class IndexAction extends BaseAction{
 		indentSession.setName(indent.getName());
 		indentSession.setPhone(indent.getPhone());
 		indentSession.setAddress(indent.getAddress());
-		indentService.saveIndent(indentSession);	// 保存订单
+		indentService.saveIndent(indentSession);	// 保存订单 
 		getSession().remove(indentKey);	// 清除购物车
-		addActionMessage("提交订单成功!");
+		addActionMessage("提交预约成功!");
 		return "cart";
 	}
 	

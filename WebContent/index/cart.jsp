@@ -4,21 +4,47 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/cart.js"></script>
+<link rel="stylesheet" href="js/jqueryui/css/jquery-ui-1.10.2.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="js/jqueryui/js/jquery-1.9.1.js"></script>
+<script src="js/jqueryui/js/jquery-ui-1.10.2.js"></script>
+<script src="js/jqueryui/js/datepicker-zh-CN.js"></script>
+<script>
+$(function() {
+	// 初始化日期插件
+	$( "#datepicker" ).datepicker({
+		showButtonPanel: true,//显示按钮栏
+		showOtherMonths: true,//显示其他月份
+		changeMonth: true,//显示月份菜单
+		changeYear: true,//显示年份菜单
+		numberOfMonths: 3,//显示月份数量
+		showOn: "button",//显示按钮
+		buttonImage: "admin/js/jqueryui/css/images/calendar.gif",//图片地址
+		buttonImageOnly: false,//是否按钮只显示为图片
+		minDate: -3,//开始日期(当天为0)
+		maxDate: "+1Y +1M +1D",//今天之后的天数
+	});
+	$( "#datepicker" ).datepicker( "option", "zh-CN");
+	$( "#datepicker" ).datepicker('setDate', new Date());	//设置初识日期
+});
+</script>
+
 <title>购物车</title>
 </head>
 <body>
 
 <div id="wrap">
 
-<jsp:include page="header.jsp"/>
+<div class="logo">
+	    <a href="index.action">
+	    	<img src="images/logo.gif" border="0" /></a>
+    </div>
 
 <div class="center_content">
 
 	<div class="left_content">
 	
-		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>我的预定未支付</div>
+		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>我的购物车</div>
 		
 		<div class="feat_prod_box_details">
 		
@@ -51,18 +77,15 @@
 	          		</tr>
 	        	</table><br>
 	        	
-	        	<form action="save.action" method="post" id="form_save_order">
-	        		<table class="cart_table">
-	        			<tr>
-		        			<td>预约人姓名: <input type="text" name="indent.name" value="${indent.name}" placeholder="预约人姓名" style="width:100px" required="required"/></td>
-			        		<td>预约人电话: <input type="text" name="indent.phone" value="${indent.phone}" placeholder="预约人电话" style="width:100px" required="required"/></td>
-			        		<td>科室地址: <input type="text" name="indent.address" value="${indent.address}" placeholder="科室地址" style="width:180px" required="required"/></td>
-		        		</tr>
-	        		</table>
-	        		
+	        	<form action="save.action" method="post" id="form_save_order" >
+
+		        			预约人姓名: <input type="text" name="indent.name" required="required"/>
+			        		预约人电话: <input type="text" name="indent.phone" required="required"/>			        		
+		        		              预约日期: <input type="text" id="datepicker" name="indent.address"/>
+
 	        		<input type="submit" class="checkout" value="提交预约"/>
 	        		
-	        	</form>
+	        	</form><s:actionerror/>
 	        	
 			
 			</s:if>
@@ -88,3 +111,4 @@
 
 </body>
 </html>
+			

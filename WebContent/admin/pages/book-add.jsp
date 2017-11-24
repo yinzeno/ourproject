@@ -13,15 +13,15 @@ $(function() {
 	// 初始化日期插件
 	$( "#datepicker" ).datepicker({
 		//showButtonPanel: true,//显示按钮栏
-		//showOtherMonths: true,//显示其他月份
-		//changeMonth: true,//显示月份菜单
-		//changeYear: true,//显示年份菜单
-		//numberOfMonths: 3,//显示月份数量
+		showOtherMonths: true,//显示其他月份
+		changeMonth: true,//显示月份菜单
+		changeYear: true,//显示年份菜单
+		numberOfMonths: 3,//显示月份数量
 		//showOn: "button",//显示按钮
-		//buttonImage: "jqueryui/css/images/calendar.gif",//图片地址
-		//buttonImageOnly: true,//是否按钮只显示为图片
-		//minDate: -3,//开始日期(当天为0)
-		//maxDate: "+1Y +1M +1D",//今天之后的天数
+		//buttonImage: "admin/js/jqueryui/css/images/calendar.gif",//图片地址
+		//buttonImageOnly: false,//是否按钮只显示为图片
+		minDate: -3,//开始日期(当天为0)
+		maxDate: "+1Y +1M +1D",//今天之后的天数
 	});
 	$( "#datepicker" ).datepicker( "option", "zh-CN");
 	$( "#datepicker" ).datepicker('setDate', new Date());	//设置初识日期
@@ -38,7 +38,9 @@ $(function() {
 		介绍：<input type="text" name="book.intro" required="required"/><br>
 		性别：<input type="text" name="book.auther"/><br>
 		职称：<input type="text" name="book.press"/><br>
+		
 		出诊日期：<input type="text" id="datepicker" name="book.pubdate"/><br>
+		
 		科室分类:  <select name="book.category.id">
 							<s:iterator value="categoryList">
 								<option value="<s:property value="id"/>"><s:property value="name"/></option>

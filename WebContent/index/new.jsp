@@ -16,7 +16,7 @@
 
 	<div class="left_content">
 	
-		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>最新出版</div>
+		<div class="title"><span class="title_icon"><img src="images/bullet1.gif"/></span>最新医学报告</div>
      
      	<s:iterator value="newList">
 	     

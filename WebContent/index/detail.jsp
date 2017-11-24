@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/book.js"></script>
+
 <title>医生详情</title>
 </head>
 <body>
@@ -58,20 +59,7 @@
 					</ul>
 				</div>
 				<div style="display: none;" class="tab" id="tab2">
-				<!-- 相关推荐 暂时不做
-					<div class="new_prod_box"> <a href="details.htm">product name</a>
-						<div class="new_prod_bg"> <a href="details.htm"><img src="images/thumb1.gif" alt="" title="" class="thumb" border="0" /></a> </div>
-					</div>
-					<div class="new_prod_box"> <a href="details.htm">product name</a>
-						<div class="new_prod_bg"> <a href="details.htm"><img src="images/thumb1.gif" alt="" title="" class="thumb" border="0" /></a> </div>
-					</div>
-					<div class="new_prod_box"> <a href="details.htm">product name</a>
-						<div class="new_prod_bg"> <a href="details.htm"><img src="images/thumb1.gif" alt="" title="" class="thumb" border="0" /></a> </div>
-					</div>
-					<div class="new_prod_box"> <a href="details.htm">product name</a>
-						<div class="new_prod_bg"> <a href="details.htm"><img src="images/thumb1.gif" alt="" title="" class="thumb" border="0" /></a> </div>
-					</div>
-					<div class="clear"></div> -->
+				
 				</div>
 			</div>
         
